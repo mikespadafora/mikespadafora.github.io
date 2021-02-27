@@ -2,7 +2,6 @@
 const MAX_VALUES = 6;
 const MAX_BITS = 8;
 
-const CIRCLE_OFF = 'circle';
 const CIRCLE_ON = 'circle-on';
 
 const VALUES = [40,20,10,8,4,2,1];
@@ -73,7 +72,7 @@ function processCircles(hours, minutes, seconds) {
         time -= VALUES[i];
       }
       else {
-        document.getElementById(`${KEYS[key]}${VALUES[i]}`).classList.remove(CIRCLE_OFF);
+        document.getElementById(`${KEYS[key]}${VALUES[i]}`).classList.remove(CIRCLE_ON);
       }
     }
   }
