@@ -69,11 +69,11 @@ function processCircles(hours, minutes, seconds) {
 
     for (let i = 0; i <= MAX_VALUES; i++) {
       if (time - VALUES[i] >= 0) {
-        document.getElementById(`${KEYS[key]}${VALUES[i]}`).className = CIRCLE_ON;
+        document.getElementById(`${KEYS[key]}${VALUES[i]}`).classList.add = CIRCLE_ON;
         time -= VALUES[i];
       }
       else {
-        document.getElementById(`${KEYS[key]}${VALUES[i]}`).className = CIRCLE_OFF;
+        document.getElementById(`${KEYS[key]}${VALUES[i]}`).classList.remove = CIRCLE_OFF;
       }
     }
   }
