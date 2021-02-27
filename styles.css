@@ -54,25 +54,14 @@
   background:white;
   margin: 10px;
   opacity: 25%;
-  transition: opacity 0.3s;
   -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
   flex-wrap: wrap-reverse;
   justify-content: flex-end;
 }
 
 .circle-on {
-<<<<<<< HEAD
   opacity: 85%;  
-=======
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  background:white;
-  margin: 10px;
-  opacity: 85%;
-  transition: opacity 0.3s;
-  -webkit-transition: opacity 0.3s;
->>>>>>> bd47305984c706a3bfaa98040acd4833e34c1361
 }
 
 .clock {
